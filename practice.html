@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INTeG X - Practice</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #f5f5f5;
+    }
+    header {
+      background: #1f1f1f;
+      padding: 15px 25px;
+      text-align: center;
+      font-size: 2em;
+      font-weight: bold;
+      color: #00e5ff;
+      border-bottom: 2px solid #00e5ff;
+      letter-spacing: 2px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 15px;
+      background: #1a1a1a;
+      border-bottom: 1px solid #333;
+    }
+    nav a {
+      text-decoration: none;
+      color: #f5f5f5;
+      font-weight: bold;
+      padding: 8px 15px;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      background: #00e5ff;
+      color: #121212;
+    }
+    .container {
+      padding: 30px;
+    }
+    .container h2 {
+      text-align: center;
+      color: #00e5ff;
+      margin-bottom: 25px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #1f1f1f;
+      border: 2px solid #00e5ff;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s, background 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      background: #222;
+    }
+    .card h3 {
+      color: #00e5ff;
+      margin-bottom: 10px;
+    }
+    .card p {
+      font-size: 0.95em;
+      margin-bottom: 15px;
+    }
+    .btn-primary {
+      padding: 8px 15px;
+      border: none;
+      border-radius: 5px;
+      background: #00e5ff;
+      color: #121212;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .btn-primary:hover {
+      background: #00b8d4;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+      background: #1f1f1f;
+      border-top: 1px solid #333;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>INTeG X</header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="explore.html">Explore Tools</a>
+    <a href="math-tools.html">Math Tools</a>
+    <a href="physics-tools.html">Physics Tools</a>
+    <a href="practice.html">Practice</a>
+  </nav>
+
+  <div class="container">
+    <h2>Practice Section</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Math MCQs</h3>
+        <p>Practice multiple-choice questions from algebra, geometry, trigonometry, and more.</p>
+        <button class="btn-primary">Start Quiz</button>
+      </div>
+      <div class="card">
+        <h3>Physics MCQs</h3>
+        <p>Test your knowledge in mechanics, optics, electricity, and thermodynamics.</p>
+        <button class="btn-primary">Start Quiz</button>
+      </div>
+      <div class="card">
+        <h3>Formula Practice</h3>
+        <p>Review and memorize key Maths & Physics formulas with examples.</p>
+        <button class="btn-primary">Practice Now</button>
+      </div>
+      <div class="card">
+        <h3>Timed Quizzes</h3>
+        <p>Challenge yourself with timed quizzes to improve speed and accuracy.</p>
+        <button class="btn-primary">Start Timed Quiz</button>
+      </div>
+      <div class="card">
+        <h3>Random Problem Generator</h3>
+        <p>Get random problems for practice in both Maths and Physics.</p>
+        <button class="btn-primary">Generate Problem</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 INTeG X | Empowering Students & Parents
+  </footer>
+</body>
+</html>
