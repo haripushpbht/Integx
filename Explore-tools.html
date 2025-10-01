@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INTeG X - Explore Tools</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #f5f5f5;
+    }
+    header {
+      background: #1f1f1f;
+      padding: 15px 25px;
+      text-align: center;
+      font-size: 2em;
+      font-weight: bold;
+      color: #00e5ff;
+      border-bottom: 2px solid #00e5ff;
+      letter-spacing: 2px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 15px;
+      background: #1a1a1a;
+      border-bottom: 1px solid #333;
+    }
+    nav a {
+      text-decoration: none;
+      color: #f5f5f5;
+      font-weight: bold;
+      padding: 8px 15px;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      background: #00e5ff;
+      color: #121212;
+    }
+    .container {
+      padding: 30px;
+    }
+    .container h2 {
+      text-align: center;
+      color: #00e5ff;
+      margin-bottom: 25px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #1f1f1f;
+      border: 2px solid #00e5ff;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s, background 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      background: #222;
+    }
+    .card h3 {
+      color: #00e5ff;
+      margin-bottom: 10px;
+    }
+    .card p {
+      font-size: 0.95em;
+      margin-bottom: 15px;
+    }
+    .btn-primary {
+      padding: 8px 15px;
+      border: none;
+      border-radius: 5px;
+      background: #00e5ff;
+      color: #121212;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .btn-primary:hover {
+      background: #00b8d4;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+      background: #1f1f1f;
+      border-top: 1px solid #333;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>INTeG X</header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="explore.html">Explore Tools</a>
+    <a href="#">Math Tools</a>
+    <a href="#">Physics Tools</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="container">
+    <h2>Explore Our Tools</h2>
+    <div class="grid">
+      <!-- Math Tools -->
+      <div class="card">
+        <h3>Equation Solver</h3>
+        <p>Solve linear, quadratic and simultaneous equations step-by-step.</p>
+        <button class="btn-primary">Open Tool</button>
+      </div>
+      <div class="card">
+        <h3>Graph Plotter</h3>
+        <p>Plot graphs for lines, parabolas, trigonometric and exponential functions.</p>
+        <button class="btn-primary">Open Tool</button>
+      </div>
+      <div class="card">
+        <h3>Formula Bank</h3>
+        <p>Quick access to important maths & physics formulas with examples.</p>
+        <button class="btn-primary">Open Tool</button>
+      </div>
+      <div class="card">
+        <h3>Unit Converter</h3>
+        <p>Convert units of length, area, volume, speed, and more instantly.</p>
+        <button class="btn-primary">Open Tool</button>
+      </div>
+
+      <!-- Physics Tools -->
+      <div class="card">
+        <h3>Ohm’s Law Calculator</h3>
+        <p>Calculate Voltage, Current, and Resistance easily.</p>
+        <button class="btn-primary">Open Tool</button>
+      </div>
+      <div class="card">
+        <h3>Kinematics Solver</h3>
+        <p>Solve equations of motion (SUVAT) with step-by-step answers.</p>
+        <button class="btn-primary">Open Tool</button>
+      </div>
+      <div class="card">
+        <h3>Projectile Motion</h3>
+        <p>Simulate the path of a projectile and visualize its trajectory.</p>
+        <button class="btn-primary">Open Tool</button>
+      </div>
+      <div class="card">
+        <h3>Optics Calculator</h3>
+        <p>Use lens and mirror formulas to solve image formation problems.</p>
+        <button class="btn-primary">Open Tool</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 INTeG X | Empowering Students & Parents
+  </footer>
+</body>
+</html>
