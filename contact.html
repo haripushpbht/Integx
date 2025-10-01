@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INTeG X - Contact</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #f5f5f5;
+    }
+    header {
+      background: #1f1f1f;
+      padding: 15px 25px;
+      text-align: center;
+      font-size: 2em;
+      font-weight: bold;
+      color: #00e5ff;
+      border-bottom: 2px solid #00e5ff;
+      letter-spacing: 2px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 15px;
+      background: #1a1a1a;
+      border-bottom: 1px solid #333;
+    }
+    nav a {
+      text-decoration: none;
+      color: #f5f5f5;
+      font-weight: bold;
+      padding: 8px 15px;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      background: #00e5ff;
+      color: #121212;
+    }
+    .container {
+      padding: 30px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .container h2 {
+      text-align: center;
+      color: #00e5ff;
+      margin-bottom: 25px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      background: #1f1f1f;
+      padding: 25px;
+      border-radius: 10px;
+      border: 2px solid #00e5ff;
+    }
+    input, textarea {
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      outline: none;
+      font-size: 1em;
+      background: #222;
+      color: #f5f5f5;
+    }
+    textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+    .btn-primary {
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      background: #00e5ff;
+      color: #121212;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .btn-primary:hover {
+      background: #00b8d4;
+    }
+    .contact-info {
+      margin-top: 30px;
+      text-align: center;
+      line-height: 1.8;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+      background: #1f1f1f;
+      border-top: 1px solid #333;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>INTeG X</header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="explore.html">Explore Tools</a>
+    <a href="math-tools.html">Math Tools</a>
+    <a href="physics-tools.html">Physics Tools</a>
+    <a href="practice.html">Practice</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="container">
+    <h2>Contact Us</h2>
+    <form action="#" method="post">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="text" name="subject" placeholder="Subject" required>
+      <textarea name="message" placeholder="Write your message here..." required></textarea>
+      <button type="submit" class="btn-primary">Send Message</button>
+    </form>
+
+    <div class="contact-info">
+      <p><b>Email:</b> support@integx.com</p>
+      <p><b>Address:</b> Prayagraj, Uttar Pradesh, India</p>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 INTeG X | Empowering Students & Parents
+  </footer>
+</body>
+</html>
